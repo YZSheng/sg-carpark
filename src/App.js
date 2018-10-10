@@ -1,8 +1,14 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import axios from "axios";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
+  componentDidMount() {
+    axios
+      .get("https://api.data.gov.sg/v1/transport/carpark-availability")
+      .then(console.log);
+  }
   render() {
     return (
       <div className="App">
