@@ -29,9 +29,9 @@
 - Primitive type - Max
 - Object - Max
 - Function - Max
-- Logical operators  - YZ
-- Control flow - YZ
-- Relaxed syntax - YZ
+- Logical operators  - YZ (==, ===, &&, ||, !, usage such as guarding against null, !!)
+- Control flow - YZ (for, while, if, try...catch, modern )
+- Relaxed syntax - YZ (", ', `` for string interpolation)
 - Scope ??
 
 ## Exercise: (15 mins) - Slides
